@@ -36,8 +36,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "UnityNativeUtils",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityNativeUtils/1.10.7-dev-1474834/UnityNativeUtils.xcframework.zip",
-            checksum: "af87c5d7c34b10d9ffec658de92d9306a2844a0970303928c3095a227be513fd"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityNativeUtils/1.10.7-dev-1474869/UnityNativeUtils.xcframework.zip",
+            checksum: "ebec1b3bcb35c6f5c945d593572dc47e62b806b499b0572d570b9d1fb924735f"
         )
     ]
 )
