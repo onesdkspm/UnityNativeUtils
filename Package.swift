@@ -11,9 +11,9 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/BTCocoaCategory.git", from: "2.0.2"),
-        .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
-        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "1.0.0"),
+        .package(url: "https://github.com/onesdkspm/BTCocoaCategory.git", from: "2.0.3"),
+        .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.3"),
+        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "2.0.3"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
@@ -36,8 +36,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "UnityNativeUtils",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityNativeUtils/2.0.2/UnityNativeUtils.xcframework.zip",
-            checksum: "30d0eb12a5f4896e9894d07f4b28a9006b74ec8449fdcc3c8b1a8d0b0413d902"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityNativeUtils/2.0.3/UnityNativeUtils.xcframework.zip",
+            checksum: "0abb39c19295eb13f41ddf0032d89d2b053f160aa4181d793f0093d6fcd8d2fc"
         )
     ]
 )
